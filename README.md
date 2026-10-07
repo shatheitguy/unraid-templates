@@ -28,14 +28,12 @@ account.
 
 | | |
 | --- | --- |
-| Image | `ghcr.io/shatheitguy/it-vault` (amd64 and arm64) |
+| Image | `ghcr.io/shatheitguy/itvault` (amd64 and arm64) |
 | WebUI | port 5000 |
 | Paths | `/app/data`, `/app/invoices`, `/app/backups` |
 | Project | https://shatheitguy.github.io/it-vault/ |
 | Support | https://github.com/shatheitguy/it-vault/issues |
 
-`it-vault.xml` is generated from
-[`unraid/it-vault.xml`](https://github.com/shatheitguy/it-vault/blob/main/unraid/it-vault.xml)
-in the application repository, where a test checks it against the code: every
-variable it sets is one the app reads, and every path it mounts is one the app
-writes. Edit it there, not here.
+`it-vault.xml` is the template itself — edit it here. Keep it in step with the
+app: every variable it sets must be one IT-Vault reads, and every path it
+mounts must be one the app writes.
