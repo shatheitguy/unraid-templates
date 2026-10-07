@@ -37,3 +37,29 @@ account.
 `it-vault.xml` is the template itself — edit it here. Keep it in step with the
 app: every variable it sets must be one IT-Vault reads, and every path it
 mounts must be one the app writes.
+
+## FormCraft
+
+[FormCraft](https://github.com/shatheitguy/formcraft) is a self-hosted form
+builder: drag-and-drop forms, templates and quizzes, submissions with charts
+and CSV export, users and roles, email and Telegram alerts, multilingual forms
+(English, Arabic, Tamil) and full backups.
+
+**It needs nothing else.** The template uses the built-in SQLite database in
+`/mnt/user/appdata/formcraft`. To use PostgreSQL instead, create an empty
+database and set *Database URL* to
+`postgresql://USER:PASSWORD@HOST:5432/DBNAME?schema=public`; the same image
+works with both.
+
+There is no default admin password: the first run asks you to create the
+account.
+
+| | |
+| --- | --- |
+| Image | `ghcr.io/shatheitguy/formcraft` (amd64 and arm64) |
+| WebUI | port 3000 |
+| Paths | `/app/data` |
+| Project | https://shatheitguy.github.io/formcraft/ |
+| Support | https://github.com/shatheitguy/formcraft/issues |
+
+`formcraft.xml` is the template itself — edit it here.
