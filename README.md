@@ -41,9 +41,13 @@ mounts must be one the app writes.
 ## FormCraft
 
 [FormCraft](https://github.com/shatheitguy/formcraft) is a self-hosted form
-builder: drag-and-drop forms, templates and quizzes, submissions with charts
-and CSV export, users and roles, email and Telegram alerts, multilingual forms
-(English, Arabic, Tamil) and full backups.
+builder: drag-and-drop forms, 13 templates, file uploads and quizzes,
+submissions with charts and CSV / PDF / Excel reports, users and roles, email,
+Telegram and WhatsApp alerts, two-factor sign-in, multilingual forms (English,
+Arabic, Tamil), automatic backups and an Android app.
+
+**Updating:** Docker tab → FormCraft → *Update*. *Settings → About* in the app
+shows the running version and whether a newer one is out.
 
 **It needs nothing else.** The template uses the built-in SQLite database in
 `/mnt/user/appdata/formcraft`. To use PostgreSQL instead, create an empty
