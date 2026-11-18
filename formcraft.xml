@@ -12,7 +12,7 @@
   <Overview>
     FormCraft is a self-hosted form builder: a drag-and-drop builder with 12 question types (including Terms &amp; conditions and File upload) and 13 templates, quizzes with scoring, a submissions table with filters, charts, CSV, PDF and Excel reports, users and roles, email, Telegram and WhatsApp alerts, two-factor sign-in, multilingual forms (English, Arabic, Tamil) with right-to-left support, light and dark themes, automatic backups and an Android app.&#xD;
 &#xD;
-    WHATSAPP: link your WhatsApp by scanning a QR code in Settings, Notifications (like WhatsApp Web) to send response alerts and PDF / Excel reports. The container needs internet access for this.&#xD;
+    NOTIFICATIONS: link your WhatsApp by scanning a QR code in Settings, Notification channel setup (like WhatsApp Web), add a Telegram bot and SMTP email. Send response alerts and PDF / Excel reports to your team or to outside recipients, and a confirmation to the person who filled the form. The container needs internet access for this.&#xD;
 &#xD;
     DATABASE: this template uses the built-in SQLite database, stored in the Data folder below. Nothing else to install. To use PostgreSQL instead, set Database URL to postgresql://USER:PASSWORD@HOST:5432/DBNAME?schema=public (create the empty database first; the tables build themselves on first start).&#xD;
 &#xD;
@@ -34,9 +34,16 @@
   <DonateText/>
   <DonateLink/>
   <Description>
-    Self-hosted form builder: drag-and-drop forms, 13 templates, file uploads, quizzes, submissions with charts and CSV / PDF / Excel reports, roles, email / Telegram / WhatsApp alerts, two-factor sign-in, multilingual forms, dark mode, automatic backups and an Android app.&#xD;
+    Self-hosted form builder: drag-and-drop forms, 13 templates, 4 form looks, file uploads, quizzes, submissions with charts and CSV / PDF / Excel reports, roles, email / Telegram / WhatsApp alerts, two-factor sign-in, multilingual forms, dark mode, automatic backups and an Android app.&#xD;
   </Description>
   <Changes>
+### 1.1.1 (2026-11-18)
+- Choose which notifications you get; admins can require them
+- Per-form alerts to outside emails, WhatsApp numbers and Telegram groups, with conditions and a daily summary
+- Confirmation message to the person who filled the form (WhatsApp / email)
+- Form looks: Classic, Minimal, Steps and Split; choose the language a form opens in
+- Sign-in codes and forgot password by email, WhatsApp or Telegram (3-minute codes)
+- Layout fixes for phones and wide screens; new website
 ### 1.1.0 (2026-11-17)
 - WhatsApp alerts and reports (link by QR code)
 - PDF and Excel reports; Terms &amp; conditions and File upload questions; 9 new templates
