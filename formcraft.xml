@@ -16,7 +16,7 @@
 &#xD;
     DATABASE: this template uses the built-in SQLite database, stored in the Data folder below. Nothing else to install. To use PostgreSQL instead, set Database URL to postgresql://USER:PASSWORD@HOST:5432/DBNAME?schema=public (create the empty database first; the tables build themselves on first start).&#xD;
 &#xD;
-    BACKUPS: automatic backups run daily at 02:00 (Unraid's time zone) into the backups folder inside Data; change the schedule in Settings, Database. Copy them off the server too.&#xD;
+    BACKUPS: automatic backups run daily at 02:00 (Unraid's time zone) into the backups folder inside Data; change the schedule in Settings, Database &amp; Backup. Copy them off the server too.&#xD;
 &#xD;
     UPDATES: Settings, About shows your version and checks for a new one. To update on Unraid, use Docker tab, FormCraft, Update (or Check for Updates).&#xD;
 &#xD;
