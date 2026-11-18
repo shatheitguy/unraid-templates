@@ -37,6 +37,10 @@
     Self-hosted form builder: drag-and-drop forms, 13 templates, 4 form looks, file uploads, quizzes, submissions with charts and CSV / PDF / Excel reports, roles, email / Telegram / WhatsApp alerts, two-factor sign-in, multilingual forms, dark mode, automatic backups and an Android app.&#xD;
   </Description>
   <Changes>
+### 1.1.2 (2026-11-18)
+- Settings tabs: Notifications, and Database &amp; Backup
+- The builder shows the chosen form look while editing
+- New website with a Get started guide and phone screenshots
 ### 1.1.1 (2026-11-18)
 - Choose which notifications you get; admins can require them
 - Per-form alerts to outside emails, WhatsApp numbers and Telegram groups, with conditions and a daily summary
